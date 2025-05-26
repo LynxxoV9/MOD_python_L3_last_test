@@ -1,0 +1,422 @@
+/* Initialisation du projet*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables globale*/
+html {
+    --var-bg-color: #7743e9;
+    --var-secondary-color: #6e51cf;
+    --var-text-color: #fff;
+    --var-text-color-dark: #333;
+    --var-bg-light: #f0f4ff;
+    --var-bg-dark: #d3c9f3;
+}
+
+body{
+    font-family: "Noto Sans NKo", sans-serif;
+    background-color: var(--var-bg-light);
+    color: var(--var-text-color-dark);
+}
+
+header{
+    height: 4rem;
+    background-color:white;
+    padding: 0 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+    position: sticky;
+    top: 0;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--var-text-color-dark);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: var(--var-secondary-color);
+}
+
+header button{
+    background-color: var(--var-secondary-color);
+    color: var(--var-text-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+}
+header button:hover{
+    background-color: var(--var-bg-dark);
+    color: var(--var-text-color-dark);
+    border: 1px solid var(--var-secondary-color);
+
+}
+
+main{
+    padding: 2rem;
+}
+
+#hero{
+    width: 100%;
+    height: 70vh;
+    padding: 1rem;
+    border-radius: 5px;
+    background: linear-gradient(90deg, var(--var-bg-color) 15%, var(--var-secondary-color)100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+#hero  .gauche h1{
+    font-size: 3rem;
+    color: var(--var-text-color);
+    font-weight: 900;
+    
+}
+
+#hero  .gauche p{
+    font-size: clamp(1rem, 2vw, 1rem);
+    color: var(--var-text-color);
+    
+}
+
+.gauche button{
+    background-color: var(--var-text-color);
+    color: var(--var-text-color-dark);
+    margin-top: 1.4rem;
+    padding: 0.9rem 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.droite {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.droite img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.effets {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    
+}
+
+.effets .cercle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #d3c9f3;
+    position: absolute;
+    animation: animation 4s  ease-in infinite;
+}
+
+.effets .cercle:nth-child(1){
+    background: linear-gradient(90deg, var(--var-bg-color) 15%, #9b8dc8 100%);
+    position: absolue;
+    right: 10px;
+
+}
+
+.effets .cercle:nth-child(2){
+    background: linear-gradient(90deg, var(--var-bg-color) 15%, #9b8dc8 100%);
+    position: absolue;
+    left: 10px;
+
+}
+
+.effets .cercle:nth-child(3){
+    background: linear-gradient(90deg, var(--var-bg-color) 15%, #9b8dc8 100%);
+    position: absolue;
+    top: 10px;
+    left: 100px;
+
+}
+
+@keyframes animation{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* La partie service */
+#services{
+    margin-top: 2rem;
+    
+}
+
+#services h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--var-text-color-dark);
+    margin-bottom: 1rem;
+}
+
+.services-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 3rem;
+
+}
+
+.services-list .card-service{
+    flex: 1;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px; 
+    
+
+
+}
+
+.card-service .icon{
+    width: 50px;
+    height: 50px;
+    background-color: #ccb6fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+
+    
+}
+
+.card-service .icon i{
+    font-size: 1.3rem;
+    color: var(--var-text-color);
+}
+
+.card-service h3{
+    margin-top: 1rem;
+}
+
+/* La partie forum */
+
+#album{
+    margin-top: 2rem;
+}
+#album h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--var-text-color-dark);
+    margin-bottom: 1rem;
+}
+
+#album .photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+#contact{
+    margin-top: 2rem;
+    display: flex;
+    height:calc(100vh -200px);
+    background-color: #fff;
+}
+
+#contact .partie1, .partie2{
+    flex: 1;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    position: relative;
+    padding: 1rem;
+    
+
+}
+
+#contact .partie1{
+    background-color: #ccb6fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#contact h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--var-text-color-dark);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.parti2 form{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.partie2 form input, textarea{
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.partie2 form textarea{
+    height: 100px;
+    
+}
+
+.partie2 form input:focus, textarea:focus{
+    background-color: 1px solid var(--var-bg-color);
+    
+}
+
+.partie2 form button{
+    background-color: var(--var-bg-color);
+    color: var(--var-text-color);
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+    
+}
+
+.partie2 form button:hover{
+    background-color: var(--var-secondary-color);
+    color: var(--var-text-color-dark);
+    border: 1px solid var(--var-bg-color);
+}
+
+/* Footer */
+footer{
+    background-color: var(--var-bg-color);
+    color: var(--var-text-color);
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+    height: 100px;
+}
+
+#reseaux {
+    position: fixed;
+    bottom: 3rem;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #ccb6fa;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    right: 0px;
+    
+}
+
+#reseaux .carte{
+    width: 40px;
+    height: 40px;
+    background-color: var(--var-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carte:hover {
+    background-color: #fff;
+}
+
+/* Medias queries pour adapter à chaque écrans de nos terminaux */
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        padding: 1rem;
+        display: none; /* Hide by default */
+    }
+
+    header nav ul.active {
+        display: flex; /* Show when active */
+    }
+
+    header button {
+        display: none; /* Hide button on mobile */
+    }
+
+    #hero .gauche h1 {
+        font-size: 2.5rem; /* Smaller font size on mobile */
+    }
+
+    #hero .gauche p {
+        font-size: 0.9rem; /* Smaller font size on mobile */
+    }
+
+    .services-list {
+        flex-direction: column; /* Stack services vertically */
+    }
+    
+}
