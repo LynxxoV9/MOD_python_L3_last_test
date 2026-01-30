@@ -49,9 +49,9 @@ Avant d’exécuter le projet, il est nécessaire d’avoir :
   - beautifulsoup4
   - html5lib
 
-##Installation des dépendances :
+## Installation des dépendances :
 
-pip install requests beautifulsoup4 html5lib
+    pip install requests beautifulsoup4 html5lib
 
 
 Attention selon le système d’exploitation
