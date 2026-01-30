@@ -1,0 +1,72 @@
+TITcRE 1:
+Bienvenue sur Inggbaa
+
+TITRE 2:
+Inggbaa
+Mes Services
+Nos Albums
+Qui sommes-nous
+Contactz-nous
+
+TITRE 3:
+Services 1
+Services 2
+Services 3
+Services 4
+
+PARAGRAPHES:
+Paragraphe[1]:
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Sit ut voluptate, odio explicabo quis debitis culpa error
+                      repellendus veniam provident ab molestiae, quibusdam assumenda
+                       veritatis necessitatibus rerum non quas at!
+Paragraphe[2]:
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Hic, numquam eum! Voluptate, voluptas similique. 
+                     Incidunt aperiam expedita mollitia consequatur nulla,
+                      facilis suscipit dolore, ut minus sint nostrum 
+                      tempore laborum eos!
+Paragraphe[3]:
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Hic, numquam eum! Voluptate, voluptas similique. 
+                     Incidunt aperiam expedita mollitia consequatur nulla,
+                      facilis suscipit dolore, ut minus sint nostrum 
+                      tempore laborum eos!
+Paragraphe[4]:
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Hic, numquam eum! Voluptate, voluptas similique. 
+                     Incidunt aperiam expedita mollitia consequatur nulla,
+                      facilis suscipit dolore, ut minus sint nostrum 
+                      tempore laborum eos!
+Paragraphe[5]:
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Hic, numquam eum! Voluptate, voluptas similique. 
+                     Incidunt aperiam expedita mollitia consequatur nulla,
+                      facilis suscipit dolore, ut minus sint nostrum 
+                      tempore laborum eos!
+Paragraphe[6]:
+rem ipsum dolor sit amet consectetur adipisicing elit.
+                     Cumque voluptatum, in alias magnam odio eveniet dolorum facilis 
+                     consequuntur rerum aspernatur at mollitia quas amet. Laborum error 
+                     optio quidem minus suscipit!
+Paragraphe[7]:
+
+Paragraphe[8]:
+� 2023 Inggbaa. Tous droits réservés.
+
+LIENS:
+///-Le lien vers [Accueil]: mapage.html
+///-Le lien vers [A propos]: mapage.html
+///-Le lien vers [Contact]: mailto:formateur2@adngolfe1togo.com
+
+FORMULAIRE:
+ <form>
+                    <label for="name"></label>
+                    <input id="name" placeholder="Saisir son nom" required="" type="text"/>
+
+                    <label for="email"></label>
+                    <input id="email" placeholder="Votre email" required="" type="email"/>
+
+                    <textarea id="message" placeholder="Votre message ici..." required=""></textarea>
+                    <button type="submit">Envoyez</button>
+                </form> 
