@@ -97,7 +97,13 @@ Ce projet permet de :
 
     Consolider les bases du langage Python
 
-Auteur
+## Auteur
 
 Team: ~LIVE_SCRAPERS~
-Licence 3 Informatique – ESA Togo
+Membre:
+FIABI Kokou Olivier - Sécurité Informatique
+NANGA Ditorga       - Génie Logiciel
+LAKEMATE Jean       - Génie Electrique
+NBINDIGOUM Israël  - Génie Logiciel
+
+*Licence 3 – Ecole Supérieure des Affaires - Togo*
