@@ -100,10 +100,15 @@ Ce projet permet de :
 ## Auteur
 
 Team: ~LIVE_SCRAPERS~
+
 Membre:
+
 FIABI Kokou Olivier - Sécurité Informatique
+
 NANGA Ditorga       - Génie Logiciel
+
 LAKEMATE Jean       - Génie Electrique
+
 NBINDIGOUM Israël  - Génie Logiciel
 
 *Licence 3 – Ecole Supérieure des Affaires - Togo*
