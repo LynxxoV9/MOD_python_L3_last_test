@@ -75,7 +75,7 @@ Exécution du projet
 
     Lancer le script Python principal :
 
-python main.py
+python scraping_pad.py
 
     Vérifier les fichiers générés :
 
