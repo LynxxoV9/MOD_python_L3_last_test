@@ -99,7 +99,7 @@ Ce projet permet de :
 
 ## Auteur
 
-Team: ~LIVE_SCRAPERS~
+Team: *LIVE_SCRAPERS*
 
 Membre:
 
